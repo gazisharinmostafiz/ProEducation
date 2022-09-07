@@ -1,3 +1,20 @@
 html,body{
     overflow-x: hidden;
 }
+
+.nav-ul-positioning ul{
+    margin-left: 17rem;
+}
+.carousel-mask>.mask {
+    position: relative;
+}
+.carousel-inner>.mask:before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(29, 29, 29, 0.7);
+    border-radius: 5px;
+}
