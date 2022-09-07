@@ -103,6 +103,10 @@ imgHover img:hover {
     }
 }
 
+.checked {
+    color: orange;
+  }
+
 @media only screen and (min-width:577px)and (max-width:992px){
     .container{
         max-width: 100%;
