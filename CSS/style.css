@@ -18,8 +18,6 @@ html,body{
     background: rgba(29, 29, 29, 0.7);
     border-radius: 5px;
 }
-
-
 .prev-btn-customization {
     position: absolute;
     right: 180px;
@@ -30,6 +28,7 @@ html,body{
     z-index: 100;
 }
 
+
 .next-btn-customization {
     position: absolute;
     left: 180px;
@@ -38,4 +37,72 @@ html,body{
     border-radius: 50%;
     background-color: dodgerblue;
     z-index: 100;
+}
+
+
+
+@media only screen and (max-width:576px) {
+    .caption-1 h1{
+        font-size:1.25rem;
+        margin-top: 50px;
+    }
+    .caption-1 p{
+        font-size:.75rem;
+        margin-bottom: 10px;
+    }
+    .caption-1 button{
+        position: absolute;
+        padding: 4px 10px;
+        font-size: 1rem;
+        left:70px;
+        right: 70px;
+    }
+    .carousel-item .ratings-part{
+        padding: 10px 2px;
+    }
+    .carousel-item .img-part{
+        padding-left: 2px;
+    }
+    .carousel-item p{
+        max-width: 100%;
+        font-size: .75rem;
+        padding: 2px;
+    }
+    .company-logo-part {
+        display: none;
+    }
+    .prev-btn-customization {
+        display: none;
+    }
+    .next-btn-customization {
+        display: none;
+    }
+    .footer-part h1,.footer-part p{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .link-part{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media only screen and (min-width:577px)and (max-width:992px){
+    .container{
+        max-width: 100%;
+    }
+    .company-logo-part{
+        display: none;
+    }
+        .prev-btn-customization {
+            display: none;
+        }
+    
+        .next-btn-customization {
+            display: none;
+        }
+    
 }
