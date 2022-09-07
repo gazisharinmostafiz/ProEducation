@@ -38,8 +38,12 @@ html,body{
     background-color: dodgerblue;
     z-index: 100;
 }
-
-
+.fa , fa-facebook{
+    font-size: 41px;
+}
+.lni {
+   font: normal normal normal 1em/1 'LineIcons' !important ;
+}
 
 @media only screen and (max-width:576px) {
     .caption-1 h1{
