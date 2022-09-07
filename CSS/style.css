@@ -44,6 +44,15 @@ html,body{
 .lni {
    font: normal normal normal 1em/1 'LineIcons' !important ;
 }
+.iconSize a{
+    color: rgb(125, 129, 129);
+
+}
+
+imgHover img:hover {
+    background-color: rgb(6, 38, 221);
+  }
+
 
 @media only screen and (max-width:576px) {
     .caption-1 h1{
